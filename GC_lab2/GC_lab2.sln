@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GC_lab2", "GC_lab2\GC_lab2.csproj", "{E945992B-1106-4AC3-8490-8D540D30DFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorLock", "DoorLock\DoorLock.csproj", "{6AE1A810-374A-47EB-B8A3-3A910CB95684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E945992B-1106-4AC3-8490-8D540D30DFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E945992B-1106-4AC3-8490-8D540D30DFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E945992B-1106-4AC3-8490-8D540D30DFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E945992B-1106-4AC3-8490-8D540D30DFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE1A810-374A-47EB-B8A3-3A910CB95684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE1A810-374A-47EB-B8A3-3A910CB95684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE1A810-374A-47EB-B8A3-3A910CB95684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE1A810-374A-47EB-B8A3-3A910CB95684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {004F7CC6-DE25-4798-8967-C3FFC9C721E9}
+	EndGlobalSection
+EndGlobal
