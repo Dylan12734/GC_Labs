@@ -25,5 +25,6 @@ while(doContinue2)
     }
     Console.WriteLine("would you like to continue? (y/n)");
     string input = Console.ReadLine();
-    if(input == "n") break;
+    if (input == "n") break;
+    else if (input != "n" && input != "y") Console.WriteLine("Please enter a valid input.");
 }
