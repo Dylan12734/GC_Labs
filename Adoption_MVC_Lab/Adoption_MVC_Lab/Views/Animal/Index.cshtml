@@ -1,0 +1,44 @@
+﻿@model List<Animal>
+
+<div class="text-center">
+    <h1>Animals Up For Adoption</h1>
+</div>
+<a asp-action="AddAnimal" asp-controller="Animal">Add An Animal To Our List</a>
+<div class="row">
+    <div class="text-center">
+        <form asp-controller="Animal" asp-action="Index">
+            <div class="input-group mb-3">
+                <input name="searchTerm" type="text" class="form-control"placeholder="Breeds" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    .custom-card-image {
+        max-width: 200px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+</style>
+<div class="row">
+    @foreach(var animal in Model){
+        <div class="col-3">
+    <div class="card" style="width: 18rem;">
+         
+    <img src= "@animal.Img" class="card-img-top mx-auto custom-card-image" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@animal.Name</h5>
+            <p class="card-text">@animal.Description</p>
+            <p class="card-text">Age: @animal.Age</p>
+            <a class="btn btn-primary" asp-controller="Animal" asp-action="AdoptAnimal" asp-route-id="@animal.Id">Adopt me!</a>
+        </div>
+    </div>
+    </div>
+    
+    }
+</div>
+

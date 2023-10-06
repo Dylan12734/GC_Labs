@@ -11,6 +11,7 @@ public class User
     public string UserName { get; set; }
     [Column(TypeName = "nvarchar(50)")]
     [Required]
+    
     public string Password { get; set; }
     [Column(TypeName = "nvarchar(50)")]
     [Required]
